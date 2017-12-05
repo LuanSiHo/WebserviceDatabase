@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.hosiluan.webservicedatabase.UpdateSinhVienActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#8e1f85"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:text="CẬP NHẬT THÔNG ITN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/edt_hoten"
+        android:hint="Nhập họ tên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_namsinh"
+        android:hint="Nhập Năm Sinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_diachi"
+        android:hint="Nhập địa chỉ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Cập nhật"
+            android:id="@+id/btn_them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_huy"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

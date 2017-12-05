@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ho Ten SV"
+        android:textColor="#0d00ff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_namsinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hoten"
+        android:layout_marginTop="10dp"
+        android:text="Nam sinh: 1999"
+        android:textColor="#209702"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_diachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_hoten"
+        android:layout_marginTop="10dp"
+        android:text="Ca Mau"
+        android:textColor="#2e2e2c"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_marginRight="10dp"
+        android:id="@+id/img_btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/img_btn_edit"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_delete_task_type_blue" />
+
+    <ImageButton
+        android:id="@id/img_btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_edit_task_type" />
+</RelativeLayout>
